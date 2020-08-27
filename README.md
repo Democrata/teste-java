@@ -20,7 +20,6 @@ API aberta: Utilizar a API aberta [Via Cep](https://viacep.com.br/)
 Abaixo estão exemplos de consulta na API aberta:
 ### XML
 URL: [https://viacep.com.br/ws/01001000/xml/](https://viacep.com.br/ws/01001000/xml/)
-RETORNO
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <xmlcep>
@@ -37,14 +36,12 @@ RETORNO
 ```
 ### PIPED
 URL: [https://viacep.com.br/ws/01001000/piped/](https://viacep.com.br/ws/01001000/piped/)
-RETORNO
 ```
 cep:01001-000|logradouro:Praça da Sé|complemento:lado ímpar|bairro:Sé|
 localidade:São Paulo|uf:SP|unidade:|ibge:3550308|gia:1004
 ```
 ### JSON
 URL: [https://viacep.com.br/ws/01001000/json/](https://viacep.com.br/ws/01001000/json/)
-RETORNO
 ```json
 {
   "cep": "01001-000",
